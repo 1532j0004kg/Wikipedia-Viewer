@@ -1,98 +1,99 @@
-  body
-  {
-    background : url("https://i.pinimg.com/736x/76/cb/5b/76cb5b3cfc95a253b5da5095b3ea85e9--black-background-wallpaper-seamless-background.jpg");
-    background-repeat : no-repeat;
-    background-size: cover;
+body
+{
+  background : url("https://i.pinimg.com/736x/76/cb/5b/76cb5b3cfc95a253b5da5095b3ea85e9--black-background-wallpaper-seamless-background.jpg");
+  background-repeat : no-repeat;
+  background-size: cover;
 
-  }
+}
 
-  #header{
+h1{
+  font-size : 20px;
+}
+b{
+  font : serif;
+}
+
+#search
+{
+  text-align : center;
+  color : grey;
+  font-family : serif;
+  font-size : 22px;
+}
+
+input{
+  background-color : #1C0221;
+  border : 1px solid #E365C1;
+  width : 30%;
+  height : 50px;
+}
+
+button
+{
+  font-size : 17px;
+  background-color : #E396DF;
+  border :3px solid #E365C1;
+  color : purple;
+  font-family : times-new-roman;
+}
+
+.row{
+   display:  flex;
+}
+.fa-search{
+  color : #8B2635;
+}
+
+.well
+{
+  background-color : grey;
+  border : 3px solid black;
+}
+#header{
     text-align: center;
     color : #9B6A6C;
     font-family : cursive;
+    font-size : 40px;
   }
-  b{
-    font : serif;
-  }
+.col-xs-4{
+  display : none;
+}
 
-  #search
-  {
-    text-align : center;
-    color : grey;
-    font-family : serif;
-    font-size : 22px;
-  }
-
-  input{
-    background-color : #1C0221;
-    border : 1px solid #E365C1;
-    width : 30%;
-    height : 50px;
-  }
-
-  button
-  {
-    font-size : 17px;
-    background-color : #E396DF;
-    border :3px solid #E365C1;
-    color : purple;
-    font-family : times-new-roman;
-  }
-
-  .row{
-     display:  flex;
-  }
-  .fa-search{
-    color : #8B2635;
-  }
-
-  .well
-  {
-    background-color : grey;
-    border : 3px solid black;
-  }
-
-
-  .col-xs-4{
-    display : none;
-  }
-
-
-  p{
+p{
   text-align : center;
-  color : #0B5563;
+  color : #941B0C;
   font-size : 25px;
-  }
+}
 
 
-  h4{
-    color: #CEABB1;
-    font-family :system-ui;
-  }
+h4{
+  color: #CEABB1;
+  font-family :system-ui;
+}
 
-  #readMore{
-    text-align : right;
-  }
+#readMore{
+  text-align : right;
+}
 
-  #random{
-    color :  #C0E8F9;
-    font-family : cursive;
-    color : skyblue;
-    font-size : 20px;
-    margin-right : 7%;
-  }
+#random{
+  color :  #C0E8F9;
+  font-family : cursive;
+  color : skyblue;
+  font-size : 20px;
+  margin-right : 7%;
+}
 
-  #access{
-    color : #FFC15E;
-    font-size : 15px;
-  }
+#access{
+  color : #FFC15E;
+  font-size : 15px;
+}
 
-  <!--
-  h5{
-    color : darkgrey;
-    font-size : 30px;
-  }
-  #ida{
-    color : grey;
-    padding-right : 10px;
-  }-->
+<!--
+h5{
+  color : darkgrey;
+  font-size : 30px;
+}
+#ida{
+  color : grey;
+  padding-right : 10px;
+}-->
